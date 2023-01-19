@@ -147,7 +147,7 @@ const Services = () => {
           data-aos-duration="900"
         >
           <div className="service__head">
-            <h3>Software Development & Microservies</h3>
+            <h3>Software Development & Microservices</h3>
           </div>
 
           <ul className="service__list">
