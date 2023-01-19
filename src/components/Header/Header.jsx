@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <article className="container header__container">
         <h5
           data-aos="fade-up"
