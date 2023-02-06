@@ -16,6 +16,12 @@ const Portfolio = () => {
       fadeDuration: "1100",
     },
     {
+      name: "Metaverse",
+      deployedLink: "https://metaverse-shashwat.netlify.app/",
+      image: require("../../assets/metaverse.png"),
+      fadeDuration: "1100",
+    },
+    {
       name: "Text Converter",
       deployedLink: "https://text-converter-shashwat.netlify.app/",
       image: require("../../assets/textconverter.png"),
