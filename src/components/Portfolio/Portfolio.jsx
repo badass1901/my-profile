@@ -3,6 +3,12 @@ import "./portfolio.css";
 
 const Portfolio = () => {
   const projects = [
+     {
+      name: "LocalShopIndia Bot",
+      deployedLink: "https://lsi-bot.netlify.app/",
+      image: require("../../assets/bot.png"),
+      fadeDuration: "1100",
+    },
     {
       name: "Athlete Club",
       deployedLink: "https://athlete-club-mobile.netlify.app/",
@@ -10,15 +16,15 @@ const Portfolio = () => {
       fadeDuration: "1000",
     },
     {
-      name: "Cleaning Expert",
-      deployedLink: "https://cleaning-expert.netlify.app/",
-      image: require("../../assets/cleaning.png"),
-      fadeDuration: "1100",
-    },
-    {
       name: "Metaverse",
       deployedLink: "https://metaverse-shashwat.netlify.app/",
       image: require("../../assets/metaverse.png"),
+      fadeDuration: "1100",
+    },
+    {
+      name: "House Cleaners",
+      deployedLink: "https://cleaning-expert.netlify.app/",
+      image: require("../../assets/cleaning.png"),
       fadeDuration: "1100",
     },
      {
@@ -28,27 +34,46 @@ const Portfolio = () => {
       fadeDuration: "1100",
     },
     {
-      name: "Text Converter",
-      deployedLink: "https://text-converter-shashwat.netlify.app/",
-      image: require("../../assets/textconverter.png"),
+      name: "Client Portfolio",
+      deployedLink: "https://diya-biswas.netlify.app/",
+      image: require("../../assets/client.png"),
       fadeDuration: "1100",
     },
-    {
-      name: "Job Portal",
-      deployedLink: "https://jobportal-vue.netlify.app",
-      image: require("../../assets/job.png"),
-      fadeDuration: "1100",
-    },
-    {
+     {
       name: "Chatify",
       deployedLink: "https://chatify-web.netlify.app/",
       image: require("../../assets/chatify.png"),
       fadeDuration: "1100",
     },
     {
+      name: "Text Converter with 11 Themes",
+      deployedLink: "https://text-converter-shashwat.netlify.app/",
+      image: require("../../assets/textconverter.png"),
+      fadeDuration: "1100",
+    },
+    {
+      name: "Job Portal (Vue.js)",
+      deployedLink: "https://jobportal-vue.netlify.app",
+      image: require("../../assets/job.png"),
+      fadeDuration: "1100",
+    },
+   
+    {
       name: "News Monkey",
       deployedLink: "/",
       image: require("../../assets/news.png"),
+      fadeDuration: "1100",
+    },
+     {
+      name: "Todo App (Vue.js)",
+      deployedLink: "https://todo-list0-vue.netlify.app/",
+      image: require("../../assets/todo.png"),
+      fadeDuration: "1100",
+    },
+    {
+      name: "Material Calculator",
+      deployedLink: "https://calculator-project-badass1901.netlify.app/",
+      image: require("../../assets/calc.png"),
       fadeDuration: "1100",
     },
   ];
