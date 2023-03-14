@@ -21,6 +21,12 @@ const Portfolio = () => {
       image: require("../../assets/metaverse.png"),
       fadeDuration: "1100",
     },
+     {
+      name: "Instant Pizza",
+      deployedLink: "https://instant-pizza.netlify.app/",
+      image: require("../../assets/pizza.png"),
+      fadeDuration: "1100",
+    },
     {
       name: "Text Converter",
       deployedLink: "https://text-converter-shashwat.netlify.app/",
